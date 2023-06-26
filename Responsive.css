@@ -1,0 +1,79 @@
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .font-control {
+        padding: 15px;
+    }
+
+    .social-list {
+        font-size: 48px;
+    }
+
+    #footer .social-list a {
+        margin: 0 8px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px){
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top:  16px !important;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        /* chỉ cho thằng li cấp 1 có thuộc tính này */
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: black; 
+    }
+
+    #nav .subnav a {
+        color: aliceblue;
+        padding: 5px 41px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn{
+       display: none;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+}
+
+/* overflow: hidden; ẩn đi những thằng con thò ra khỏi thằng cha */
